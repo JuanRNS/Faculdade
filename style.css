@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 243, 239);
+}
+.cabeca{
+    background-color: rgb(37, 148, 83);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.lista1{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0 10px;
+    color: white;
+    margin: 0;
+    margin-bottom: 13px;
+}
+.topo{
+    text-align: center;
+    color: white;
+    margin: 13px 0px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.ultimas{
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 0 10px;
+    padding: 0 10px;
+}
+.noticia{
+    box-shadow: 0 4px 8px rgba(3, 0, 0, 0.1);
+    border-radius: 0px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+     
+}
+.h4pnot1{
+    margin: 10px;
+    margin-bottom: -2px;
+}
+.tituloimagem{
+    margin-left: 10px;
+}
+.imagemprincipal{
+    margin-left: 10px;
+}
+.data{
+    opacity: 60%;
+}
