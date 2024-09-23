@@ -24,6 +24,7 @@ body{
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
+    margin-left: 135px;
 }
 .btn img{
     width: 25px;
@@ -106,9 +107,10 @@ body{
     opacity: 60%;
 }
 .container-cards{
-    box-shadow: 0 4px 8px rgba(240, 237, 237, 0.1);
+    box-shadow: 0 4px 8px rgba(20, 0, 0, 0.1);
     background-color: white;
     width: 20%;
+    border-radius: 5px;
 }
 .lista2{
     list-style-type: none;
