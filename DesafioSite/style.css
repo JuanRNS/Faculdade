@@ -1,7 +1,33 @@
+:root{
+    --background-color:#fff;
+    --text-color:#555;
+    --title-color:#000
+}
+.dark-theme{
+    --background-color:#000;
+    --text-color:#999;
+    --title-color:#fff;
+}
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(245, 243, 239);
+    background: var(--background-color);
+    color: var(--text-color);
+}
+.btn{
+    background: #4864ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn img{
+    width: 25px;
+    margin-left: 10px;
 }
 .cabeca{
     background-color: rgb(37, 148, 83);
