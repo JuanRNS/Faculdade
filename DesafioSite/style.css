@@ -50,12 +50,64 @@ body{
     margin: 10px;
     margin-bottom: -2px;
 }
+.container2{
+    display: flex;
+    margin: 0;
+    gap: 20px 20px;
+    padding: 10px;
+}
 .tituloimagem{
     margin-left: 10px;
 }
 .imagemprincipal{
-    margin-left: 10px;
+    flex-grow: 3;
+}
+.imagemprincipal img{
+    width: 100%;
+}
+.imagem2{
+    width: 20%;
+}
+.titulosecundario{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.imagemsecundaria{
+   width: 100%;
 }
 .data{
     opacity: 60%;
+}
+.container-cards{
+    box-shadow: 0 4px 8px rgba(240, 237, 237, 0.1);
+    background-color: white;
+    width: 20%;
+}
+.lista2{
+    list-style-type: none;
+}
+.containerf{
+    background-color: rgb(54, 48, 48);
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    color: white;
+}
+.redessociais{
+    list-style-type: none;
+    display: flex;
+    gap: 0 10px;
+    color: rgb(39, 133, 39);
+}
+.redes{
+    text-align: center;
+}
+.borda{
+    width: 2px;
+    height: 15px;
+    background-color: white;
+    border: 1px;
+    border-color: white;
+    
 }
